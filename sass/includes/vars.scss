@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic,400italic,700italic|Open+Sans+Condensed:300,300italic,700);
+
+/* Colors */
+$azul        : #24ACDA;
+$gris        : #4E4E4E;
+$gris_oscuro : #282828;
+$white       : #fcfcfc;
+
+/* Fonts 
+	Las familias disponibles desde Google Webfonts son:;
+		font-family: 'Ubuntu', sans-serif;
+		font-family: 'Open Sans Condensed', sans-serif;
+*/
+$font_base       : 12px;
+$text_proportion : 0.5;
+$ubuntu  	     : 'Ubuntu', sans-serif;
+$open_sans  	 : 'Open Sans Condensed', sans-serif;
+$font_light  	 : 300;
+$font_normal 	 : 500;
+$font_bold   	 : 700;
+
+/* Definicion del Grid */
+$column-width : 60px;
+$column-number: 12;
+$column-gutter: 20px;

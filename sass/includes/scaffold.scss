@@ -1,0 +1,26 @@
+@import "functions";
+
+// Estilos del Body
+body {
+	font-family:$ubuntu;
+	font-weight: $font_normal;
+	font-weight:$font_light;
+	text-size: $font_base;
+	background-color: $white;
+	color: $gris_oscuro;
+}
+/*
+	Genera la proporcion de los Headline
+*/
+@for $i from 1 through 6 {
+  h#{$i} { 
+  	@include text-proportion($i);
+  	font-weight: $font_normal;
+  	font-family: $open_sans;
+  	margin-bottom:20px;
+  }
+}
+
+p {
+	margin:10px 0; 
+}
